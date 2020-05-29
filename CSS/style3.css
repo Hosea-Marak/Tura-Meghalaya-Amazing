@@ -63,9 +63,9 @@ ul li.active a{
     margin-left: 120px;
 }
 h6{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 @media only screen and (min-width: 768px){
     .wrapper{
@@ -102,11 +102,9 @@ h6{
         font-size: 18px;
     }
     h6{
-        margin-top: 10px;
         margin-left: 170px;
-        margin-bottom: 20px;
         font-size: 18px;
-    }
+         }
 
 }
 @media only screen and (min-width: 1000px){
