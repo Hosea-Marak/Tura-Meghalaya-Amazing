@@ -49,7 +49,7 @@ ul li.active a{
     margin-bottom: 10px;
 }
 .vid{
-    width: 100px;
+    width: 103px;
     height: 65px;     
     display: inline-block;
 }
@@ -69,6 +69,14 @@ h6{
     margin-top: 10px;
     margin-left: 100px;
     margin-bottom: 20px;
+}
+@media only screen and (min-width: 414px){
+    .vid{
+        width: 135px;
+        height: 80px;     
+        display: inline-block;
+    }
+
 }
 @media only screen and (min-width: 768px){
     .wrapper{
