@@ -67,6 +67,9 @@ h6{
     margin-left: 100px;
     margin-bottom: 5px;
 }
+a{
+    text-decoration: none;
+}
 @media only screen and (min-width: 768px){
     .wrapper{
         width: 600px;

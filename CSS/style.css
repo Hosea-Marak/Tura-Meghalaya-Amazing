@@ -48,6 +48,9 @@ ul li.active a{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+a{
+    text-decoration: none;
+}
 .vid{
     width: 103px;
     height: 65px;     
