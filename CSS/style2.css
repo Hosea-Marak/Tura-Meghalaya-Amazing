@@ -7,7 +7,8 @@
     width: 100%;
 }
 .img-ban{
-    display: none;
+    display: block;
+    width: 100%;
 }
 .main ul{
     padding: 5px 0px 2px 5px;
@@ -114,13 +115,45 @@ ul li.active a{
 .contact{
     margin-left: 120px;
 }
-h6{
-    margin-top: 5px;
-    margin-left: 100px;
-    margin-bottom: 5px;
-}
 a{
     text-decoration: none;
+}
+h6{
+    margin-top: 5px;
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+@media only screen and (min-width: 375px){
+    .main ul{
+        margin-left: 12px;
+        font-size: 8px;
+    }
+    .vid{
+        width: 120px;
+        height: 80px;     
+        display: inline-block;
+    }
+    .contact{
+        margin-left: 140px;
+    }
+    h6{
+        margin-top: 5px;
+        margin-left: 140px;
+        margin-bottom: 5px;
+    }
+
+}
+@media only screen and (min-width: 414px){
+    .main ul{
+        margin-left: 28px;
+        font-size: 8.5px;
+    }
+    .vid{
+        width: 135px;
+        height: 80px;     
+        display: inline-block;
+    }
+
 }
 @media only screen and (min-width: 768px){
     .wrapper{
@@ -160,7 +193,7 @@ a{
         font-size: 18px;
     }
     h6{
-        margin-left: 170px;
+        margin-left: 210px;
         font-size: 18px;
      }
 
@@ -201,7 +234,7 @@ a{
         margin-left: 400px;
     }
     h6{
-        margin-left: 350px;
+        margin-left: 390px;
     }
 
 }
